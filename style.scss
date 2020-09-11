@@ -1,5 +1,10 @@
 @charset "#UTF-8";
 
+// <html>タグにフォントサイズ100%を設定するとブラウザーのでフォルト文字サイズ、ユーザー設定の文字サイズが正しく反映されるようになる。
+html{
+    font-size: 100%;
+}
+
 body{
 font-family: 'Lobster Two', cursive;
 }
