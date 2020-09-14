@@ -5,8 +5,19 @@
 html{
     font-size: 100%;
 }
-
+// ここで書体の指定・行の高さの指定・色の指定を行う
 body{
 font-family: 'Lobster Two', cursive;
+line-height: 1.5;
+color: #caeef7;
 }
 
+// aタグの傍線の指定
+a{
+    text-decoration: none;
+}
+
+// 画像の大きさの指定, max-width: 100%;にすることで画像が親要素よりも大きくなることを防ぎます
+img{
+    max-width: 100%;
+}
