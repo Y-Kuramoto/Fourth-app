@@ -21,3 +21,18 @@ a{
 img{
     max-width: 100%;
 }
+
+// headerロゴ画像の大きさ変更
+.logo{
+    width: 90px;
+    margin-top: 4px;
+}
+
+// ナビゲーションメニューの装飾。flex使う！！
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    
+}
+
