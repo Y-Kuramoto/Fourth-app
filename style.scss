@@ -34,6 +34,32 @@ img{
     font-size: 1.25rem;
     text-transform: uppercase;
     margin-top: 34px;
-    liststy
+    list-style: none;
 }
 
+.main-nav li{
+    margin-left: 34px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+// 「a:hover」はリンクテキストにカーソルを合わせたときに適用される疑似クラスと呼ばれるもの。カーソルを合わせたときの装飾を指定できる。
+main-nav a:hover {
+    color: #0bd;
+}
+
+// ロゴとナビゲーションを横並びにする。
+// ロゴを左にナビゲーションメニューを右に配置するために、それぞれを囲っている「page-header」クラスにflexboxで横並びにする。
+// 「justify-content: space-before;」も書くことで両端に設置できる。
+.
+
+// コンテンツの最大表示幅を設定。
+// 「margin:0 auto;」を指定すると、ボックスを画面の中央に配置できる。
+// また、左右に「padding」をつけておくと、スマートフォンの狭い画面でみても余白ができて見やすくなる。
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
