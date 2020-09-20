@@ -53,7 +53,10 @@ main-nav a:hover {
 // ロゴとナビゲーションを横並びにする。
 // ロゴを左にナビゲーションメニューを右に配置するために、それぞれを囲っている「page-header」クラスにflexboxで横並びにする。
 // 「justify-content: space-before;」も書くことで両端に設置できる。
-.
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
 
 // コンテンツの最大表示幅を設定。
 // 「margin:0 auto;」を指定すると、ボックスを画面の中央に配置できる。
@@ -62,4 +65,21 @@ main-nav a:hover {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 4%;
+}
+
+// home 画面の中央に文章を配置する。
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p{
+    font-size:1.125rem;
+    margin: 10px 0 42px;
+}
+// 見出しやボタンの設定
+.page-title{
+    font-size: 5rem;
+    font-family: 'Lobster Two', cursive;
+    text-transform:uppercase;
+    font-weight: normal;
 }
