@@ -69,9 +69,15 @@ main-nav a:hover {
 }
 
 .page-title {
-  font-size: 5rem;
-  font-family: 'Lobster Two', cursive;
+  font-size: 4rem;
+  font-family: 'Lobster+Two', serif;
   text-transform: uppercase;
   font-weight: normal;
+}
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
