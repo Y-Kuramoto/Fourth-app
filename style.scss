@@ -9,7 +9,7 @@ html{
 body{
 font-family: 'Lobster Two', cursive;
 line-height: 1.5;
-color: #caeef7;
+color: #432;
 }
 
 // aタグの傍線の指定
@@ -89,5 +89,10 @@ main-nav a:hover {
     font-size: 1.375rem;
     background:#0bd;
     color: #fff;
-    border-color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+// カーソルにボタンを重ねたときの色を指定
+.button:hover{
+    background: #0090aa;
 }
